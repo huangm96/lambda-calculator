@@ -18,7 +18,8 @@ const Numbers = (props) => {
       
     {numberState.map((n)=> {
     
-    return <NumberButton  key={n} text ={n}
+    return <NumberButton  key={n.number} text ={n.number}
+                    buttonName = {n.buttonName}
                     addNumber ={props.addNumber}/> 
     
     

@@ -4,7 +4,53 @@
 // file. No real tricks here just be aware of what is in each array
 // and how you'll access the data.
 
-const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
+const numbers = [
+  {
+    buttonName:"one",
+    number:"1"
+},
+{
+  buttonName:"two",
+  number:"2"
+},
+{
+  buttonName:"three",
+  number:"3"
+},
+{
+  buttonName:"four",
+  number:"4"
+},
+
+{
+  buttonName:"five",
+  number:"5"
+},
+{
+  buttonName:"six",
+  number:"6"
+},
+{
+  buttonName:"seven",
+  number:"7"
+},
+{
+  buttonName:"eight",
+  number:"8"
+},
+{
+  buttonName:"nine",
+  number:"9"
+},
+{
+  buttonName:"zero",
+  number:"0"
+},
+{
+  buttonName:"dot",
+  number:"."
+}
+];
 
 const operators = [
   {
